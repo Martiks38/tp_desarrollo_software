@@ -3,7 +3,7 @@
 ## Grupo
 ### Integrantes
 * 53908 - Cappa, Giuliano Martín
-*  - Rojas, Alexis Julian
+* 50488 - Rojas, Alexis Julian
 
 ### Repositorios
 * [frontend app](https://github.com/Martiks38/frontend_dsw)
