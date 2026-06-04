@@ -1,22 +1,27 @@
 # Propuesta TP DSW
 
 ## Grupo
+
 ### Integrantes
-* 53908 - Cappa, Giuliano Martín
+
+- 53908 - Cappa, Giuliano Martín
 
 ### Repositorios
-* [frontend app](https://github.com/Martiks38/frontend_dsw)
-* [backend app](https://github.com/Martiks38/backend_dsw)
 
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+- [frontend app](https://github.com/Martiks38/frontend_dsw)
+- [backend app](https://github.com/Martiks38/backend_dsw)
+
+_Nota_: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
+
 ### Descripción
 
 El sistema gestiona una **guardería náutica** llamada **Puerto Oasis**. Permite a los socios registrarse, dar de alta sus embarcaciones y contratar camas náuticas en distintos sectores para su resguardo. El sistema registra las salidas y regresos de embarcaciones controlando los horarios habilitados. Además integra una **escuela náutica** donde instructores dictan actividades náuticas a través de cursos, a los que los socios pueden inscribirse.
 
 ### Modelo
-![imagen del modelo](/assets/Modelo%20de%20dominio.png)
+
+![imagen del modelo](/assets/DER.png)
 
 ## Alcance Funcional
 
@@ -38,8 +43,8 @@ Adicionales para Aprobación:
 
 ### Alcance Adicional Voluntario
 
-|Req|Detalle|
-|:-|:-|
-|Listados|1. Historial de contratos por cama: filtrado por fecha y estado, mostrando todas las embarcaciones que ocuparon cada cama|
-|CUU/Epic|1. Gestión de cupo en cursos: el sistema impide inscripciones cuando el curso alcanzó su cupo máximo y ofrece lista de espera|
-|Otros|1. Notificaciones en tiempo real: aviso al socio cuando su embarcación tiene regreso vencido o cuando se aprueba su inscripción a un curso<br>2. Estadísticas para el administrador: visualización de ocupación de sectores, embarcaciones más activas y cursos con mayor demanda<br>3. Logs de operaciones: el administrador puede ver un historial de todas las entradas, salidas y cambios de contrato registrados en el sistema|
+| Req      | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Listados | 1. Historial de contratos por cama: filtrado por fecha y estado, mostrando todas las embarcaciones que ocuparon cada cama                                                                                                                                                                                                                                                                                                           |
+| CUU/Epic | 1. Gestión de cupo en cursos: el sistema impide inscripciones cuando el curso alcanzó su cupo máximo y ofrece lista de espera                                                                                                                                                                                                                                                                                                       |
+| Otros    | 1. Notificaciones en tiempo real: aviso al socio cuando su embarcación tiene regreso vencido o cuando se aprueba su inscripción a un curso<br>2. Estadísticas para el administrador: visualización de ocupación de sectores, embarcaciones más activas y cursos con mayor demanda<br>3. Logs de operaciones: el administrador puede ver un historial de todas las entradas, salidas y cambios de contrato registrados en el sistema |
